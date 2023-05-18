@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, rgba(0, 150, 136, 1) 30%, rgba(5, 175, 93, 0.8436624649859944) 100%);
+    min-height: 100vh;
+}
+
+:root {
+    --main-color: #009688;
+}
+
+/* Start Header Section */
+.header {
+     background-image: url('https://img.freepik.com/premium-photo/wooden-table_36051-46.jpg?w=1060');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height: 35vh;
+    padding: 2rem;
+    position: relative;
+    /* background: #2c3e50; */
+}
+
+@media (max-width: 500px) {
+    .header {
+        padding: 1rem;
+    }
+}
+@media (max-width: 500px) {
+    .header {
+        padding: 1rem;
+    }
+}
+
+.header .logo {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--main-color);
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header .logo svg {
+    fill: var(--main-color);
+    width: 35px;
+    height: 35px;
+}
+
+.header .desc {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.title-b{
+    width: 200px;
+    margin: 50px auto;
+   color:#eee
+}
+
+/* End Header Section */
